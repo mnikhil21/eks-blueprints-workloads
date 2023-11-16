@@ -6,7 +6,7 @@ metadata:
     app: burnham  
     {{- toYaml .Values.labels | nindent 4 }}
 spec:
-  replicas: 3
+  replicas: 6
   revisionHistoryLimit: 3
   selector:
     matchLabels:
